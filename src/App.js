@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.less';
 import React from "react";
 import ScrollMagic from "scrollmagic"; // Or use scrollmagic-with-ssr to avoid server rendering problems
 import { TweenMax, TimelineMax, gsap } from "gsap"; // Also works with TweenLite and TimelineLite
