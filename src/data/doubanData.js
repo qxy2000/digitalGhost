@@ -13,19 +13,36 @@ export const doubanUsers = [
         iListen: 1,
         wListen: 16,
         hListen: 26,
-        iReadList: [],
-        wReadList: [],
-        hReadList: [],
-        iWatchList: [],
-        wWatchList: [],
-        hWatchList: [],
-        iListenList: [],
-        wListenList: [],
-        hListenList: [],
-        birthYear: "",
-        leaveYear: "",
-        lifeTimeStr: "",
-        mapData: {},
+        iReadList: ["《天生有罪》","《图像学》","《故事》"],
+        wReadList: ["《守山》","《在雪山和雪山之间》","《食物简史》"],
+        hReadList: ["《我知道你们又来这一套！》","《活下去的理由》","《梦的解析》"],
+
+        iWatchList: ["《邪恶力量》","《走向共和》","《红高粱》"],
+        wWatchList: ["《左邻右舍","《射雕英雄传》","《黄子华栋笃笑之金盆𠺘口》"],
+        hWatchList: ["《笃栋神探》","《男亲女爱》","《绅士们》"],
+
+        iListenList: ["《曾经我也想过一了百了》"],
+        wListenList: ["《Treasure》","《Lo Que Siento》","《Shields》"],
+        hListenList: ["《Mojito》","《How You Like That》","《Passenger》"],
+        birthYear: "unknown",
+        leaveYear: "2020.10.15",
+        lifeTimeStr: "? ~ 2020.10.15",
+        mapData: {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "coordinates": [
+                    114.05440519030583,
+                    22.53695902000979
+                    ],
+                    "type": "Point"
+                    }
+                }
+            ]
+        },
         xPos: "",
         yPos: "",
         directType: "left"

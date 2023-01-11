@@ -1,28 +1,112 @@
 
-h1 {
-    color: yellow;
-  }
-  
-.monumentBlock{
-    // background-color: black;
-    // color:white;
-
-    h1{
-        color:white;
-    }
+.monumentBlock {
+    background-color: black;
+    color:white;
 }
 
-// .tombstone1{
-//     position: absolute;
-//     width: 164.54px;
-//     height: 168.8px;
-//     left: 69px;
-//     top: 78px;
+.tombstone1{
+    position: absolute;
+    background-color: black;
+    width: 164.54px;
+    height: 168.8px;
+    left: 69px;
+    top: 78px;
 
-//     img {
-//         width: 164px;
-//         height: 168px;
-//         max-width: 164px;
-//         max-height: 168px;
-//     }
-// }
+    img {
+        background-color: black;
+        width: 164px;
+        height: 168px;
+        max-width: 164px;
+        max-height: 168px;
+    }
+
+    .stone1-text1 {
+        font-family: 'Arvo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -50%);
+    }
+
+    .stone1-text2 {
+        font-family: 'Arvo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-40%, -50%);
+    }
+
+    &:hover .soul1 {
+        display: block;
+      }
+      .soul1 {
+        width: 175px;
+        height: 218px;
+        left: 69px;
+        top: 78px;
+        text-align: center;
+        display: none;
+
+        img {
+            background-color: black;
+            width: 175px;
+            height: 218px;
+            max-width: 175px;
+            max-height: 218px;
+        }
+      }
+}
+
+.singleSoulIntroPage{
+    position: relative;
+    margin: auto;
+    // width: 756px;
+    // height: 812px;
+    width: 100%;
+    height: 1625px;
+    overflow-y: scroll;
+
+    background: rgba(0, 0, 0, 0.8);
+
+    // border-style:solid;
+    // border-width:5px;
+    // border-color: aliceblue;
+
+    .close {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        width: 32px;
+        height: 32px;
+        opacity: 0.3;
+      }
+      .close:hover {
+        opacity: 1;
+      }
+      .close:before, .close:after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 33px;
+        width: 2px;
+        background-color: white;
+      }
+      .close:before {
+        transform: rotate(45deg);
+      }
+      .close:after {
+        transform: rotate(-45deg);
+      }
+}
